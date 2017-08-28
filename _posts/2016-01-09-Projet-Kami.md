@@ -15,7 +15,7 @@ _Littéralement entre la vie et la mort, votre âme se fait happer par le mysté
 
 # Vidéo de présentation du projet
 
-{% youtube lFnLHkYR3sw %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lFnLHkYR3sw" frameborder="0" allowfullscreen></iframe>
 
 # Informations complémentaires
 
