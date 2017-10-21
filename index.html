@@ -1,4 +1,85 @@
 ---
-layout: post_listing
+layout: default
 permalink: /
 ---
+
+<h3>Bienvenue dans la Tanière aux milles facettes</h3>
+<hr />
+
+<p>
+  Salut à toi, voyageur de l'internet muable et immuable !  Quel honneur que de t'acceuillir dans mon humble contrée.
+</p>
+
+<p>
+  Ce site est là pour présenter des créations, des idées, des pensées que j'ai envie de partager avec le moooonde entier !  Des projets informatiques (merci l'école d'ingé !), des projets un peu plus artistiques ou personnels... De toute et de rien...
+</p>
+
+<p>
+  Mais aussi les dernières sorties de mes futures productions audio : stay tuned ! 
+</p>
+
+<h3>Derniers articles</h3>
+<hr />
+
+{% for post in site.posts %}
+<section class="post">
+  <header class="post-header">
+    <p class="post-meta">
+      <span class="post-date">
+        {{ post.date | date: "%-d %b %Y" | upcase }}
+      </span>
+      {% if post.categories.size > 0 %}
+      •
+      {% for cat in post.categories %}
+        <a class="post-cat" href="{{ site.url }}/categories/#{{ cat }}">{{ cat }}</a>
+        {% unless forloop.last %}
+        <span>/</span>
+        {% endunless %}
+      {% endfor %}
+      {% endif %}
+    </p>
+    <h4>
+      <a href="{{ site.url }}{{ post.url }}" class="post-title" title="{{ post.title }}">{{ post.title }}</a>
+      {% if post.link %}
+      <a class="post-title-link" href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-external-link"></i></a>
+      {% endif %}
+    </h4>
+
+    {% if post.author %}
+      {% assign author = site.data.authors[post.author] %}
+    {% else %}
+      {% assign author = site.owner %}
+    {% endif %}
+
+    </header>
+
+    {% if post.excerpt %}
+    <div class="post-description">
+      <p>
+        {{ post.excerpt }}
+
+        <a href="{{ site.url }}{{ post.url }}" title="Voir l'article complet...">Voir l'article complet...</a>
+
+      </p>
+    </div>
+    {% endif %}
+
+    {% if post.image.feature %}
+    <div class="post-image-feature">
+      <img src=
+      {% if post.image.feature contains 'http' %}
+      "{{ post.image.feature }}"
+      {% else %}
+      "{{ site.url }}/img/{{ post.image.feature }}"
+      {% endif %}
+      alt="{{ post.title }} feature image">
+
+      {% if post.image.credit %}
+      <span class="image-credit">Photo Credit: <a href="{{ post.image.creditlink }}">{{ post.image.credit }}</a></span>
+      {% endif %}
+    </div><!-- /.image-wrap -->
+    {% endif %}
+
+</section>
+<hr />
+{% endfor %}

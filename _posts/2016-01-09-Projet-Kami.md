@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Projet de Réalité Virtuelle : Kami"
-categories: [informatique, projet]
+categories: [informatique]
 comments: true
 ---
 

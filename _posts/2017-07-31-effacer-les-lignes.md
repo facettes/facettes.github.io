@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mono Audio : Effacer les lignes"
-categories: [creations, audio]
+categories: [audio]
 image:
   feature: effacer_les_lignes/preview_ell.jpg
 ---
@@ -16,6 +16,7 @@ Et puis voilà, presque un an plus tard, je vous présente ma toute première cr
 </audio>
 [Télécharger "Effacer les Lignes"]({{ "audio/effacer_les_lignes.mp3" | relative_url}})
 
+<!--more-->
 
 Une plongée dans une partie de mon monde qui j'espère touchera un peu le votre :)
 

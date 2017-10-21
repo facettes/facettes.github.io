@@ -2,7 +2,7 @@
 # Site wide configuration
 ####################################
 #
-title: Facettes
+title: La tanière de Tamica
 email: enes@disroot.org
 description: De l'informatique à l'art, en passant par le parkour, la cuisine et j'en passe, un blog parlant de tout, de rien, de mes projets, de moi.
 url: # the base hostname & protocol for your site
@@ -32,10 +32,10 @@ kramdown:
 ####################################
 #
 owner:
-  name: Enes
+  name: Tamica
   avatar: avatar.jpg
   job: "Autant de pages que de facettes... à volonté"
-  bio: "De l'informatique à l'art, en passant par le parkour, la cuisine et j'en passe, un blog parlant de tout, de rien, de mes projets, de moi."
+  bio: ""
   email:
   disqus-shortname:
   twitter: #username

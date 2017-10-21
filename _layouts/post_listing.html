@@ -38,6 +38,9 @@ layout: default
     <div class="post-description">
       <p>
         {{ post.excerpt }}
+
+        <a href="{{ site.url }}{{ post.url }}" title="Voir l'article complet...">Voir l'article complet...</a>
+
       </p>
     </div>
     {% endif %}
@@ -59,4 +62,5 @@ layout: default
     {% endif %}
 
 </section>
+<hr />
 {% endfor %}

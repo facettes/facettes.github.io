@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Design de Processeur : clône d'un atmega 8 en VHDL"
-categories: [informatique, projet]
+categories: [informatique]
 comments: true
 image :
   feature: proz_design/diagramme_preview.png
