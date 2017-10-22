@@ -6,9 +6,11 @@ image:
   feature: effacer_les_lignes/preview_ell.jpg
 ---
 
+*Une femme, seule, à deux heures du matin, tourmentée par ses pensées, oscille entre folies et précipices.*
+
 Eh bien voilà, c'est fini. Une alliance entre les délires dans ma tête et ma plume qui se délie parfois. Une nuit sans lune j'ai écrit cette nouvelle, "Effacer les Lignes". Et puis une autre, j'ai décidé de le porter en histoire audio.
 
-Et puis voilà, presque un an plus tard, je vous présente ma toute première création audio : "Effacer les Lignes".
+Et puis, presque un an plus tard, je vous présente ma toute première création audio : "Effacer les Lignes".
 
 <audio controls>
 <source src="{{ "audio/effacer_les_lignes.mp3" | relative_url}}" type="audio/mpeg" />
