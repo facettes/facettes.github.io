@@ -33,7 +33,7 @@ kramdown:
 #
 owner:
   name: Tamica
-  avatar: avatar.jpg
+  avatar: #avatar.jpg
   job: "Autant de pages que de facettes... à volonté"
   bio: "Créations et écrits diverts par Tamica Sireim."
   email:
